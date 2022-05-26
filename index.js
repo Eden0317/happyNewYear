@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3|今晚|月色真美|#rectangle|');
+      S.UI.simulate('|#countdown 3|今晚的|月色真美|#rectangle|');
     }
 
     S.Drawing.loop(function () {
